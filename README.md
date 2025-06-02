@@ -7,14 +7,14 @@ Um einen möglichst reibungslosen Import von Dropshiper Daten zu gewährleisten,
 |--------|-----|--------------|-------------|
 | sku | text(9) | Forstinger SKU (wenn bekannt) | |
 | ean | int(13) | EAN Nummer | * |
-| name | text(255) | Artikelname | * |
+| name | text | Artikelname | * |
 | description | textarea | Artikel Beschreibung (HTML Tags "p", "ul", "li", "ul", "ol", "b" und "i" werden akzeptiert) | * |
-| metaTitle | text(255) | SEO Metatitel | * |
-| metaDescription | text(255) | SEO Metabeschreibung | * |
+| metaTitle | text | SEO Metatitel | * |
+| metaDescription | text | SEO Metabeschreibung | * |
 | metaKeywords | text | SEO Metaschlüsselwörter (getrennt durch ",") | * |
 | searchKeywords | text | Schlüsselwörter für Suche (getrennt durch Pipe "\|") | * |
 | categories | text | Kategorien laut ... (getrennt durch Pipe "\|") | * |
-| manufacturerItemNumber | text(255) | Hersteller Teilenummer | * |
+| manufacturerItemNumber | text | Hersteller Teilenummer | * |
 | imageGallery | text | URL's zu Bildern (getrennt durch Pipe "\|") | * |
 | attachments | text | URL's zu PDF Dokumenten (getrennt durch Pipe "\|") |  |
 | video | text | YouTube Codes für Videos (getrennt durch Pipe "\|") |  |
