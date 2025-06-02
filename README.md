@@ -29,6 +29,10 @@ Bei Feldern vom Typ "bool" ist der Wert 0 für "nein" und 1 für "ja" zu verwend
 
 | Spalte | Typ | Beschreibung |
 |--------|-----|--------------|
+| DangerousGoods\~signalword | select | Gefahrgut Signalwort laut [FORSTINGER Signalwort](https://pim-forstinger.dynaflow.at/dropship/csv/tmpl/HazardSignalword.csv) |
+| DangerousGoods\~hazardPictograms | multiselect | GHS Gefahrensymbole laut [FORSTINGER GHS Gefahrgutsymbole](https://pim-forstinger.dynaflow.at/dropship/csv/tmpl/HazardPictogram.csv), getrennt durch Pipe "\|" |
+| DangerousGoods\~hazardStatements | multiselect | Gefahrenhinweise laut [FORSTINGER Gefahrenhinweise](https://pim-forstinger.dynaflow.at/dropship/csv/tmpl/HazardStatements.csv), getrennt durch Pipe "\|" |
+| DangerousGoods\~precautionaryStatements | multiselect | Sicherheitshinweise laut [FORSTINGER Sicherheitshinweise](https://pim-forstinger.dynaflow.at/dropship/csv/tmpl/PrecautionaryStatements.csv), getrennt durch Pipe "\|" |
 | propertiesStore\~NetContent\~capacity | int | Füllmenge in Milliliter [ml] |
 | propertiesStore\~Capacity\~capacity | int | Volumen / Fassungsvermögen in Liter [l] |
 | propertiesStore\~Power\~power | int | Leistung in Watt [W] |
