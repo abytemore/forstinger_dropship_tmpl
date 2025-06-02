@@ -29,7 +29,7 @@ Bei Feldern vom Typ "bool" ist der Wert 0 für "nein" und 1 für "ja" zu verwend
 
 | Spalte | Typ | Beschreibung |
 |--------|-----|--------------|
-| propertiesStore~NetContent~capacity | int | Füllmenge in Milliliter [ml] |
+| propertiesStore\~NetContent\~capacity | int | Füllmenge in Milliliter [ml] |
 | propertiesStore~Capacity~capacity | int | Volumen / Fassungsvermögen in Liter [l] |
 | propertiesStore~Power~power | int | Leistung in Watt [W] |
 | propertiesStore~Voltage~voltage | int | Spannung in Volt [V] |
