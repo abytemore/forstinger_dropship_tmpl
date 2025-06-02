@@ -22,7 +22,9 @@ Um einen möglichst reibungslosen Import von Dropshiper Daten zu gewährleisten,
 ## Spaltenübersicht - Artikeleigenschaften
 
 Diese Spalten sind optional, sollten aber, für eine bessere Darstellung der Artikel im Shop soweit sinnvoll, angegeben werden. Die Werte müssen den Vorgaben der jeweiligen Spalte entsprechen.
+
 Bei Feldern vom Typ "select" bzw. "multiselect" ist der Wert aus der Spalte "value" verwenden (siehe Link in der jeweiligen Feldbeschreibung).
+
 Bei Feldern vom Typ "bool" ist der Wert 0 für "nein" und 1 für "ja" zu verwenden.
 
 | Spalte | Typ | Beschreibung |
