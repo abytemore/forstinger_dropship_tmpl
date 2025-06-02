@@ -30,16 +30,16 @@ Bei Feldern vom Typ "bool" ist der Wert 0 für "nein" und 1 für "ja" zu verwend
 | Spalte | Typ | Beschreibung |
 |--------|-----|--------------|
 | propertiesStore\~NetContent\~capacity | int | Füllmenge in Milliliter [ml] |
-| propertiesStore~Capacity~capacity | int | Volumen / Fassungsvermögen in Liter [l] |
-| propertiesStore~Power~power | int | Leistung in Watt [W] |
-| propertiesStore~Voltage~voltage | int | Spannung in Volt [V] |
-| propertiesStore~Color~color | select | Farbe laut [FORSTINGER Farben](https://pim-forstinger.dynaflow.at/dropship/csv/tmpl/Color.csv) |
-| propertiesStore~Size~size | select | Größe laut [FORSTINGER Größen](https://pim-forstinger.dynaflow.at/dropship/csv/tmpl/Size.csv) |
-| propertiesStore~TargetGroup~targetGroup | multiselect | Zielgruppe(n) laut [FORSTINGER Zielgruppen](https://pim-forstinger.dynaflow.at/dropship/csv/tmpl/TargetGroup.csv), getrennt durch Pipe "\|") |
-| propertiesStore~Material~material | select | Material laut [FORSTINGER Material](https://pim-forstinger.dynaflow.at/dropship/csv/tmpl/Material.csv) |
-| propertiesStore~ISize~iSize | select | iSize für Kindersizte [FORSTINGER iSize](https://pim-forstinger.dynaflow.at/dropship/csv/tmpl/ISize.csv) |
-| propertiesStore~Isofix~isofix | bool | ISOFIX Kindersitze |
-| propertiesStore~normChildSeat~NormChildCarSeat | select | Norm für Kindersitze [FORSTINGER Normen Kindersitze](https://pim-forstinger.dynaflow.at/dropship/csv/tmpl/NormChildCarSeat.csv) |
-| propertiesStore~Dimensions~length | int | Artikellänge in Millimeter [mm] |
-| propertiesStore~Dimensions~width | int | Artikelbreite in Millimeter [mm] |
-| propertiesStore~Dimensions~height | int | Artikelhöhe in Millimeter [mm] |
+| propertiesStore\~Capacity\~capacity | int | Volumen / Fassungsvermögen in Liter [l] |
+| propertiesStore\~Power\~power | int | Leistung in Watt [W] |
+| propertiesStore\~Voltage\~voltage | int | Spannung in Volt [V] |
+| propertiesStore\~Color\~color | select | Farbe laut [FORSTINGER Farben](https://pim-forstinger.dynaflow.at/dropship/csv/tmpl/Color.csv) |
+| propertiesStore\~Size\~size | select | Größe laut [FORSTINGER Größen](https://pim-forstinger.dynaflow.at/dropship/csv/tmpl/Size.csv) |
+| propertiesStore\~TargetGroup\~targetGroup | multiselect | Zielgruppe(n) laut [FORSTINGER Zielgruppen](https://pim-forstinger.dynaflow.at/dropship/csv/tmpl/TargetGroup.csv), getrennt durch Pipe "\|") |
+| propertiesStore\~Material\~material | select | Material laut [FORSTINGER Material](https://pim-forstinger.dynaflow.at/dropship/csv/tmpl/Material.csv) |
+| propertiesStore\~ISize\~iSize | select | iSize für Kindersizte [FORSTINGER iSize](https://pim-forstinger.dynaflow.at/dropship/csv/tmpl/ISize.csv) |
+| propertiesStore\~Isofix\~isofix | bool | ISOFIX Kindersitze |
+| propertiesStore\~normChildSeat\~NormChildCarSeat | select | Norm für Kindersitze [FORSTINGER Normen Kindersitze](https://pim-forstinger.dynaflow.at/dropship/csv/tmpl/NormChildCarSeat.csv) |
+| propertiesStore\~Dimensions\~length | int | Artikellänge in Millimeter [mm] |
+| propertiesStore\~Dimensions\~width | int | Artikelbreite in Millimeter [mm] |
+| propertiesStore\~Dimensions\~height | int | Artikelhöhe in Millimeter [mm] |
