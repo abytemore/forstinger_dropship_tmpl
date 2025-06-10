@@ -13,7 +13,7 @@ Um einen möglichst reibungslosen Import von Dropshiper Daten zu gewährleisten,
 | metaDescription | text | SEO Metabeschreibung | * |
 | metaKeywords | text | SEO Metaschlüsselwörter (getrennt durch ",") | * |
 | searchKeywords | text | Schlüsselwörter für Suche (getrennt durch Pipe "\|") | * |
-| categories | text | Kategorien laut ... (getrennt durch Pipe "\|") | * |
+| categories | text | Kategorien Pimcore ID's (getrennt durch Pipe "\|") | * |
 | manufacturerItemNumber | text | Hersteller Teilenummer | * |
 | imageGallery | text | URL's zu Bildern (getrennt durch Pipe "\|") | * |
 | attachments | text | URL's zu PDF Dokumenten (getrennt durch Pipe "\|") |  |
